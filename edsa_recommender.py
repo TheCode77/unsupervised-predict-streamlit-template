@@ -220,7 +220,10 @@ def main():
     # ------------- SAFE FOR ALTERING/EXTENSION -------------------
     if page_selection == "Solution Overview":
         st.title("Solution Overview")
-        st.write("Describe your winning approach on this page")
+        st.image('Pictures/Solution.jpg')
+        st.header("The Solution")
+        st.write("The team from Phantom AI followed thorough and meticulous processes to ensure they got the desired result. They collaborated on Github, and used resources such as Google Colab, VS Code, Kaggle, Anaconda and the Jupyter Notebook Environment. With these tools they have been able to establish elaborative and clear Exploratory Data Analysis that is easily comprehensive and illustrates the data perfectly. Furthermore they have developed a function that has the capacity to recommend similar movies based on the movie title that was inputted.")
+        st.write("Lastly, the team developed machine learning models that have the capacity to recommend movies that are similar to each other based on the title/s that were put in. These models have reliable algorithms, but other models performed much better than others. We have concluded that the most reliable and best performing model was the SVD model, and that is the model which we integrated to make recommendations for the user on the app.")
 
     # You may want to add more sections here for aspects such as an EDA,
     # or to provide your business pitch.
