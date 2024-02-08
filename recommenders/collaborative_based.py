@@ -41,8 +41,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn import model_selection
 
 # Importing data
-movies_df = pd.read_csv('/resources/data/movies.csv',sep = ',')
-ratings_df = pd.read_csv('/resources/data/train.csv')
+movies_df = pd.read_csv('resources/data/movies.csv',sep = ',')
+ratings_df = pd.read_csv('resources/data/ratings.csv')
 
 # movies_df = pd.read_csv('movies.csv',sep = ',')
 # ratings_df = pd.read_csv('train.csv')
