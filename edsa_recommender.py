@@ -220,7 +220,31 @@ def main():
     # ------------- SAFE FOR ALTERING/EXTENSION -------------------
     if page_selection == "Solution Overview":
         st.title("Solution Overview")
-        st.write("Describe your winning approach on this page")
+        st.image("Pictures//Solution.jpg")
+        st.subheader("Movie Recommender System: Your Personalized Cinematic Journey")
+        st.write("**Welcome to the Movie Recommender System, where we bring the magic of personalized entertainment to your Tesla's in-car experience.**")
+        st.write("**1. User-Friendly Interface:**")
+        st.write("Our sleek and intuitive interface ensures a seamless experience. Simply log in, and you'll be greeted with a user-friendly dashboard designed for effortless interaction.")
+        st.write("**2. Personalized Recommendations:**")
+        st.write("Discover a world of movies tailored just for you. Our advanced algorithm considers your preferences, historical choices, and real-time updates to provide recommendations that perfectly match your taste.")
+        st.write("**3. Autonomous Integration:**")
+        st.write("Drive with confidence as our Recommender System seamlessly integrates into Tesla's autonomous driving interface. Your entertainment experience evolves with each autonomous journey.")
+        st.write("**4. Customization Options:**")
+        st.write("Take control of your recommendations with customization options. Choose your favorite genres, set language preferences, and let the system adapt to your unique tastes.")
+        st.write("**5. Real-Time Adaptations:**")
+        st.write("Experience the power of real-time updates. As you interact with the system, it learns and adapts, refining recommendations for your next movie night on the road.")
+        st.write("**6. User Feedback Mechanism:**")
+        st.write("Your voice matters. Share your thoughts through our feedback mechanism, helping us enhance the Recommender System based on your valuable input.")
+        st.write("**7. AI Algorithm Insights:**")
+        st.write("Curious about the magic behind the recommendations? Our simplified AI algorithm ensures a deep understanding of your preferences, making every suggestion more accurate than the last.")
+        st.write("**8. Integration with Streaming Services:**")
+        st.write("Enjoy a seamless transition from recommendation to streaming. We integrate with popular streaming services, making it easy to access your selected content.")
+        st.write("**9. Data Privacy Assurance:**")
+        st.write("Rest assured, your data is safe with us. Our system follows stringent privacy measures to protect your information and ensure a secure and confidential experience.")
+        st.write("**10. Future Developments:**")
+        st.write("Exciting things are on the horizon! Stay tuned for future developments, including new features and enhancements, as we continue to shape the future of in-car entertainment.")
+        st.write("Ready for a cinematic journey personalized just for you? Dive into the Movie Recommender System and transform your Tesla drives into unforgettable experiences.")
+
 
     # You may want to add more sections here for aspects such as an EDA,
     # or to provide your business pitch.
